@@ -6,16 +6,13 @@ function sum(num){
     return num + sum(num - 1);
 }
 // *****
-// function reverseString(str){
-//  let splittedStr = str.split("");
-    
-// if (splittedStr  === 1){
-//     return str;
-// }
+function reverseString(str){
+    if (str.length === 1){
+        return str;
+    }
+return str[str.length - 1] + reverseString(str.substring(0, str.length - 1));
 
-// return splittedStr.pop() + reverseString(splittedStr.join(""));
-
-// }
-module.exports = sum;
-
-console.log(reverseString("yes"));
+}
+module.exports = {sum,
+reverseString
+};

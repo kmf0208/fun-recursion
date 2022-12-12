@@ -25,6 +25,4 @@ function analyzeArray(str, arr){
 
 
 
-
-
 module.exports = {freezeObj, analyzeArray};
