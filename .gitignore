@@ -12,3 +12,6 @@ bundle.js
 bundle.js.map
 **/*/bundle.js
 **/*/bundle.js.map
+test.js
+.package.json
+.package-lock.json
